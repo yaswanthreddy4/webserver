@@ -1,0 +1,8 @@
+--- # httpd setp
+- hosts: 192.168.83.174
+  user: test456
+  become: yes
+  gather_facts: yes
+  tasks:
+  roles:
+    - webserver
